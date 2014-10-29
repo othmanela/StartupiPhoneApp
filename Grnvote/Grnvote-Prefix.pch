@@ -1,0 +1,22 @@
+//
+// Prefix header for all source files of the 'Grnvote' target in the 'Grnvote' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <FacebookSDK/FacebookSDK.h>
+    #import <QuartzCore/QuartzCore.h>
+
+    #import "JSONKit.h"
+    #import "FBSession+User.h"
+    #import "SKBounceAnimation.h"
+
+#endif
